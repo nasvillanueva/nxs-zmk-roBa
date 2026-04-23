@@ -142,9 +142,9 @@
         Mouse {
             bindings = <
 &none  &none  &none  &none  &none                    &none  &none     &none      &none      &none
-&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1  &mkp MCLK  &mkp RCLK  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1  &mkp MCLK  &mkp RCLK  &mo 7
 &none  &none  &none  &none  &none  &none      &none  &none  &none     &none      &none      &none
-&none  &none  &none  &none  &none  &none      &none  &none                                  &none
+&none  &none  &none  &none  &none  &none      &none  &none                                  &tog 0
             >;
 
             display-name = "mouse";
