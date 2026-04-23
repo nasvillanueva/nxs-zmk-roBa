@@ -34,11 +34,11 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: mouse}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '[', h: numbers}
+  - {t: TAB, h: numbers}
   - {t: SPACE, h: symbols}
   - {t: ESCAPE, h: nav}
   - {t: ENTER, h: nav}
@@ -60,8 +60,8 @@ layers:
   - ']'
   - '%'
   - ''
-  - {t: ▽, type: trans}
-  - F13
+  - ''
+  - ''
   - ''
   - '-'
   - (
@@ -72,8 +72,8 @@ layers:
   - '}'
   - ^
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - ''
   - $
   - <
@@ -87,7 +87,7 @@ layers:
   - ''
   - ''
   - ''
-  - F12
+  - ''
   nav:
   - ''
   - ''
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,8 +309,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [37, 40]
+- p: [38, 41]
   k: '&caps_word'
-- p: [7, 8]
+- p: [6, 7]
   k: numbers
   l: [qwerty]
