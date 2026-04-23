@@ -175,7 +175,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: qwerty, h: toggle}
+  - {t: mouse, h: toggle}
   numbers:
   - ''
   - '9'
