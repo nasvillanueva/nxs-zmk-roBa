@@ -149,7 +149,7 @@ layers:
   - LEFT COMMAND
   - {type: held}
   - ''
-  - {t: mouse, h: toggle}
+  - ''
   - ''
   - '&mkp MB1'
   - '&mkp MCLK'
@@ -160,21 +160,21 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: mouse, h: toggle}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: mouse, h: toggle}
-  - {t: mouse, h: sticky}
+  - '&tog_on 3'
   - {t: mouse, h: toggle}
   numbers:
   - ''
