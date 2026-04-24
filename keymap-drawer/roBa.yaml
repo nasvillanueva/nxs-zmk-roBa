@@ -15,7 +15,7 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT COMMAND}
-  - G
+  - {t: G, h: mouse}
   - config
   - {t: mouse, h: config}
   - H
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: '[', h: mouse}
+  - '['
   - ']'
   - N
   - M
@@ -143,11 +143,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - LEFT SHIFT
+  - LEFT ALT
+  - LEFT CONTROL
+  - LEFT COMMAND
+  - {type: held}
   - ''
   - {t: mouse, h: toggle}
   - ''
@@ -160,7 +160,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: mouse, h: toggle, type: held}
+  - {t: mouse, h: toggle}
   - ''
   - ''
   - ''
@@ -173,8 +173,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {t: mouse, h: toggle}
+  - {t: mouse, h: sticky}
   - {t: mouse, h: toggle}
   numbers:
   - ''
