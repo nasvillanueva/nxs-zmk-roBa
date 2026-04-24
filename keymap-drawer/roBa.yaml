@@ -17,7 +17,7 @@ layers:
   - {t: F, h: LEFT COMMAND}
   - G
   - config
-  - config
+  - {t: mouse, h: config}
   - H
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RIGHT CONTROL}
@@ -149,7 +149,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: mouse, h: toggle}
   - ''
   - '&mkp MB1'
   - '&mkp MCLK'
@@ -160,7 +160,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: mouse, h: toggle, type: held}
   - ''
   - ''
   - ''
