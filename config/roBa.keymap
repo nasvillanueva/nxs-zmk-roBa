@@ -108,7 +108,7 @@
         QWERTY {
             bindings = <
 &kp Q              &kp W           &kp E               &kp R               &kp T                                                   &kp Y            &kp U                &kp I                &kp O            &kp P
-&hms LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_COMMAND F  &kp G        &mo 5                   &mo 5              &kp H            &hm RIGHT_COMMAND J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hms RIGHT_SHIFT SEMI
+&hms LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_COMMAND F  &kp G        &mo 5                   &thl 5 3           &kp H            &hm RIGHT_COMMAND J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hms RIGHT_SHIFT SEMI
 &kp Z              &kp X           &kp C               &kp V               &kp B        &lt 3 LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N            &kp M                &kp COMMA            &kp DOT          &kp SLASH
 &lt 6 F14          &kp LEFT_WIN    &kp LEFT_ALT        &thumb_lt 4 TAB     &lt 1 SPACE  &lt 2 ESCAPE            &lt 2 ENTER        &lt 1 BACKSPACE                                                             &thl 7 3
             >;
@@ -140,10 +140,10 @@
 
         Mouse {
             bindings = <
-&none  &none  &none  &none  &none                    &none  &none     &none      &none      &none
-&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1  &mkp MCLK  &mkp RCLK  &mo 7
-&none  &none  &none  &none  &none  &none      &none  &none  &none     &none      &none      &none
-&none  &none  &none  &none  &none  &none      &none  &none                                  &tog 3
+&none  &none  &none  &none  &none                      &none  &none     &none      &none      &none
+&none  &none  &none  &none  &none  &none       &tog 3  &none  &mkp MB1  &mkp MCLK  &mkp RCLK  &mo 7
+&none  &none  &none  &none  &none  &tog 3      &none   &none  &none     &none      &none      &none
+&none  &none  &none  &none  &none  &none       &none   &none                                  &tog 3
             >;
 
             display-name = "mouse";
