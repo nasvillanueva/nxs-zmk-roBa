@@ -43,7 +43,7 @@ layers:
   - {t: ESCAPE, h: nav}
   - {t: ENTER, h: nav}
   - {t: BACKSPACE, h: symbols}
-  - {t: mouse, h: scroll}
+  - config
   symbols:
   - '~'
   - '&'
@@ -172,10 +172,10 @@ layers:
   - ''
   - ''
   - ''
+  - scroll
   - ''
-  - {t: mouse, h: toggle}
-  - '&tog_on 3'
-  - {t: mouse, h: toggle}
+  - ''
+  - ''
   numbers:
   - ''
   - '9'
@@ -323,28 +323,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -352,6 +331,27 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [38, 41]
   k: '&caps_word'
