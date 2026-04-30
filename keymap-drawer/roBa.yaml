@@ -149,7 +149,7 @@ layers:
   - LEFT COMMAND
   - {type: held}
   - ''
-  - ''
+  - {t: mouse, h: toggle}
   - ''
   - '&mkp MB1'
   - '&mkp MCLK'
