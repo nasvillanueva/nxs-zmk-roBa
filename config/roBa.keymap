@@ -10,7 +10,7 @@
 };
 
 &trackball {
-    automouse-layer = <3>;
+    // automouse-layer = <3>;
 
     scroll-layers = <7>;
 
