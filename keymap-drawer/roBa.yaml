@@ -15,7 +15,7 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT COMMAND}
-  - {t: G, h: mouse}
+  - G
   - config
   - {t: mouse, h: config}
   - H
@@ -147,7 +147,7 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - LEFT COMMAND
-  - {type: held}
+  - ''
   - ''
   - {t: mouse, h: toggle}
   - ''
@@ -160,7 +160,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -323,20 +323,20 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
