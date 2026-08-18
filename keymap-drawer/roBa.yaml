@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - '['
+  - {t: '[', h: mouse}
   - ']'
   - N
   - M
@@ -37,7 +37,7 @@ layers:
   - /
   - {t: F14, h: macros}
   - LEFT WIN
-  - LEFT ALT
+  - numbers
   - {t: TAB, h: numbers}
   - {t: SPACE, h: symbols}
   - {t: ESCAPE, h: nav}
@@ -213,8 +213,8 @@ layers:
   - F4
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - SPACE
   - ''
   - ENTER
@@ -355,6 +355,3 @@ layers:
 combos:
 - p: [38, 41]
   k: '&caps_word'
-- p: [6, 7]
-  k: numbers
-  l: [qwerty]
