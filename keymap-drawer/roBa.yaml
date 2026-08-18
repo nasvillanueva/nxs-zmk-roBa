@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: '[', h: mouse}
-  - {t: ']', h: numbers}
+  - '['
+  - ']'
   - N
   - M
   - ','
@@ -40,7 +40,7 @@ layers:
   - numbers
   - {t: TAB, h: numbers}
   - {t: SPACE, h: symbols}
-  - {t: ESCAPE, h: nav}
+  - {t: ESCAPE, h: mouse}
   - {t: ENTER, h: nav}
   - {t: BACKSPACE, h: symbols}
   - config
@@ -128,8 +128,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   mouse:
@@ -160,7 +160,6 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
   - ''
@@ -172,7 +171,8 @@ layers:
   - ''
   - ''
   - ''
-  - scroll
+  - ''
+  - {t: scroll, type: held}
   - ''
   - ''
   - ''
@@ -205,7 +205,7 @@ layers:
   - '1'
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - F1
   - F2
@@ -213,7 +213,7 @@ layers:
   - F4
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - SPACE
   - ''
@@ -336,19 +336,19 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
