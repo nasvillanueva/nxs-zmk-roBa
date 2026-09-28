@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - '['
+  - {t: '[', h: numbers}
   - ']'
   - N
   - M
@@ -204,7 +204,7 @@ layers:
   - '2'
   - '1'
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - F1
@@ -213,7 +213,7 @@ layers:
   - F4
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - SPACE
   - ''
